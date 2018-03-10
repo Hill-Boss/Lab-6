@@ -3,7 +3,7 @@
  * @author Cody Hill-Boss
  * @file Player.java
  * 
- * @porpose "what is the purpose of this file"
+ * @porpose Player for game controlled by user input
  * @startdate Mar 8, 2018
  * 
  * 

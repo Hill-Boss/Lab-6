@@ -1,0 +1,41 @@
+CSCI 136 Lab 6
+In the following labs, you are going to continuing working in pairs and build a simple graphical collection game. It is a single player game, so you need a character that moves and items that can be collected as quickly as possible.
+Your application should have a start screen and when the Start button is pressed, it should go the main game.
+You are going to create one player with their name, the image of the player, and the number of items they have collected.
+The player will move with ASWD or the arrow keys. Please indicate on the screen which the user should use.
+The player will move around the screen trying to collect items. I have included some code to help with collection detection.
+Randomly an enemy should appear and try to eat the player. If should move toward the player and the if they collide, the game should be over.
+If the player collects all the items before they are eaten, they will move to the next level. More items are added on the second level and the enemy should be faster. This will continue until the player is caught.
+There should be a game class that contains both characters and the score for each player and the high scores. It should include the top 3 scores as well including their name and their score.
+You should have a movement class that each of the players uses as well. Do not handle the movement of the players in the panel class. Put the key listener in the Player class or in the Movement class..
+You should have a class for the items that the Player is to collect including the image name and the position.
+Finally, you should have a Enemy class that contains an image of the enemy and its position.
+You are going to use the paintComponent method to draw these items to the screen.
+
+Here is some simple collision detection code:
+
+private boolean areRectsColliding(int r1TopLeftX, int r1BottomRightX,int r1TopLeftY, int r1BottomRightY, int r2TopLeftX,int r2BottomRightX, int r2TopLeftY, int r2BottomRightY)
+{
+	if (r1TopLeftX < r2BottomRightX && r1BottomRightX > r2TopLeftX&& r1TopLeftY < r2BottomRightY && r1BottomRightY > r2TopLeftY)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+Objective: To gain an initial understanding of class design using UML and to use UML tools.
+Please use Umlet, Visio, ArgoUML, or UML Designer 7 from the Eclipse Marketplace
+
+Requirements for this lab:
+x	1. You are going to work in partners and determine who is going to work on what part.
+x	2. You are going to put all your work on GitHub and collaborate that way.
+x	3. You are going to develop and build the classes required for this program. You are going to create the design document including the class definition of each class. So, create a UML diagram of the name of the class, the attributes, and the methods required to fulfill the requirements of the program
+x	4. You are also going to implement the classes the best that you can at this point (stub code, no real implementation), and test each class by instantiating in a driver and making sure your values can be stored and retrieved (nothing too fancy here).
+x	5. You must also add comments to each class including, your name, the creation date, and the function of the class
+x	6. Add attributes and methods to whichever class makes the most sense to you.
+7. Please do not implement the entire program for this lab.
+8. Please turn in your UML document and you classes created.
+Due March 10, 2018 11:55 PM

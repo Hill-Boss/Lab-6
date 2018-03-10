@@ -3,7 +3,7 @@
  * @author Cody Hill-Boss
  * @file Panels.java
  * 
- * @porpose Add panels and info to the Main
+ * @porpose Add panels and info to LabMain
  * @startdate Mar 7, 2018
  * 
  * 

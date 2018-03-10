@@ -1,3 +1,14 @@
+/**************************************************************************************************
+ * 
+ * @author Cody Hill-Boss
+ * @file Enemy.java
+ * 
+ * @porpose Enemy for the game has movement,speed,image
+ * @startdate Mar 9, 2018
+ * 
+ * 
+ *************************************************************************************************/
+
 package P2Characters;
 
 import java.awt.Graphics2D;

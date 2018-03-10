@@ -3,7 +3,7 @@
  * @author Cody Hill-Boss
  * @file Game.java
  * 
- * @porpose Game Loop
+ * @porpose Game Stuff
  * @startdate Mar 8, 2018
  * 
  * 

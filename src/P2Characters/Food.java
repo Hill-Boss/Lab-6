@@ -3,7 +3,7 @@
  * @author Cody Hill-Boss
  * @file Food.java
  * 
- * @porpose Food for Game
+ * @porpose Food for Game player
  * @startdate Mar 9, 2018
  * 
  * 
